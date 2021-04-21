@@ -233,9 +233,9 @@
 
    - vi sascfg_personal.py
 	```bash
-		default  = {'saspath'  : '/opt/sas/spre/home/SASFoundation/bin/sas_u8'
+	default  = {'saspath'  : '/opt/sas/spre/home/SASFoundation/bin/sas_u8'
 			}
-		ssh      = {'saspath' : '/opt/sas/spre/home/SASFoundation/bin/sas_en',
+	ssh      = {'saspath' : '/opt/sas/spre/home/SASFoundation/bin/sas_en',
             'ssh'     : '/usr/bin/ssh',
             'host'    : 'remote.linux.host',
             'encoding': 'latin1',
