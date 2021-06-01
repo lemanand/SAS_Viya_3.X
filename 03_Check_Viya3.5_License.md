@@ -1,4 +1,4 @@
-## Check SAS Licence in SAS Viya 3.5
+## Check SAS Product Licences in SAS Viya 3.5
 
 1. **In SAS Environment Management**
 
