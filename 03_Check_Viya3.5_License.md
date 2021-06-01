@@ -22,6 +22,11 @@
      ```
      
    - Execute SAS code 2:
+   - ```sas
+     proc setinit ; 
+     run ;
+     ```
+     
    - Output 2:
    - ```bash
      Original site validation data
