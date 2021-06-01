@@ -1,12 +1,23 @@
 ## Check SAS Licence in SAS Viya 3.5
 
-1. **In Environment Management**
-   
+1. **In SAS Environment Management**
+
    - Environment Management -> Licenced Products
    
-2. **Download and Install [SAS Mirror Manager](https://support.sas.com/en/documentation/install-center/viya/deployment-tools/34/mirror-manager.html)**
+2. **In SAS StudioV**
+   
+   - ```sas
+     cas my_sess ;
+     cas my_sess listabout ;
+     ```
 
-	```bash
-	gunzip mirrormgr-linux.tgz
-	tar -xvf mirrormgr-linux.tar
-	```
+   - ```sas
+     Section: license
+     	site = Internal_Test_VDMML_MM
+     	siteNum = 70180938
+     	expires = 21Mar2022:00:00:00
+     	gracePeriod = 45
+     	warningPeriod = 47
+     ```
+     
+   - fdsfdsf
