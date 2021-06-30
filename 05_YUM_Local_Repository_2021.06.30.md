@@ -44,9 +44,9 @@ Source: [CentOS / RHEL 7 : How to setup yum repository using locally mounted DVD
 6.  Clear the related caches by **yum clean all** and **subscription-manager clean** 
 
      ```(bash)
-   yum clean all
-   subscription-manager clean
-   ```
+     yum clean all
+     subscription-manager clean
+     ```
 
 7. Verify if you can list out the packages from the repo you just created
 
