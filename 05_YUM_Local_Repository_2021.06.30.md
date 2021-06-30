@@ -54,4 +54,5 @@ Source: [CentOS / RHEL 7 : How to setup yum repository using locally mounted DVD
     yum --noplugins list
     yum repolist -v
    ```
+   
 
