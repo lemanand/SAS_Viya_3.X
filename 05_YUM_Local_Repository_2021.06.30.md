@@ -41,6 +41,8 @@ Source: [CentOS / RHEL 7 : How to setup yum repository using locally mounted DVD
    gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
    ```
 
+
+
 6.  Clear the related caches by **yum clean all** and **subscription-manager clean** 
 
    ```(bash)
