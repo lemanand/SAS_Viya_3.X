@@ -43,7 +43,7 @@ Source: [CentOS / RHEL 7 : How to setup yum repository using locally mounted DVD
 
 6.  Clear the related caches by **yum clean all** and **subscription-manager clean** 
 
-   ```(bash)
+     ```(bash)
    yum clean all
    subscription-manager clean
    ```
