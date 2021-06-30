@@ -31,6 +31,7 @@ Source: [CentOS / RHEL 7 : How to setup yum repository using locally mounted DVD
 
    ```(bash)
    chmod 644 /etc/yum.repos.d/rhel7.repo
+   ```
 
 5. Modify the repo file and change the parameter **gpgcheck=0** to **gpgcheck=1** and add below 3 lines to the same file
 
